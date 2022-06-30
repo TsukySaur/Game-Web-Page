@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SnakeCraft</title>
-    <link rel="stylesheet" href="about.css">
+    <title>Support</title>
+
+    <link rel="stylesheet" href="support.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
     rel="stylesheet">
-
     <script src="https://kit.fontawesome.com/2d53d87dfb.js" crossorigin="anonymous"></script>
 </head>
 
-
 <body>
-     <section class="sub-header">
+    <section class="sub-header">
+
         <nav>
-           <a href="index.html">
-            <img src="img/snake.png"></a>
+           <a href="index.html"><img src="img/snake.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
@@ -34,32 +31,56 @@
             </div>
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1> Beyond Imposible</h1>
+        <h1>Support</h1>
+
+    </section>
+
+<!---------------- Support page --------------->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81028.27075083216!2d165.9035923793991!3d-50.60605755402807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa9b37960d3cdddd7%3A0xbd1bca4ab10f2187!2sDisappointment%20Island!5e0!3m2!1slv!2slv!4v1655291547799!5m2!1slv!2slv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 </section>
-    
-<!---------------- About Us Page Content ------------------->
 
-<section class="about-us">
+<section class="support-you">
 
-    <div class="row">
-        <div class="about-col-ab">
-            <h1> You Can Create Everything</h1>
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptas, quibusdam officia. Neque aperiam blanditiis optio
-                laboriosam cum delectus excepturi deserunt veniam ducimus
-                dolor molestias harum, facere quo. Repellat, esse doloribus.</p>
-            <a href="" class="yellow-btn">EXPLORE NOW</a>
-         </div>
-         <div class="about-col-ab">
-             <img src="img/game.png" alt="">
-         </div>
+<div class="row">
+    <div class="support-col">
+        <div>
+            <i class="fa-solid fa-house"></i>
+            <span>
+                <h5>Dale Trower, Unicorn City</h5>
+                <p>Disappointment Island</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+                <h5>tsukysaur@gmail.com</h5>
+                <p>Ask Your Question</p>
+            </span>
+        </div>
+     </div>
+
+    <div class="support-col">
+
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter E-mail Address" required>
+            <textarea rows="8" cols="10" name="message" placeholder="Write Your Question" required></textarea>
+            <button type="submit" class="yellow-btn">Send a Message</button>
+        </form>
+
     </div>
+</div>
 
 </section>
 
 <!-------------- FOOTER ----------------->
 
 <section class="footer">
+
     <h4> About Us </h4>
     <p> More than just a Game </p>
     <div class="icons">
@@ -73,6 +94,7 @@
         <p> Made by <i class="fa-solid fa-rocket">
         </i> TsukySaur <i class="fa-brands fa-github fa-xl"></i> </p>
     </div>
+
 </section>
 
 <!------------JavaSript for Toggle Menu------------->
@@ -80,6 +102,6 @@
 
 <script src="code.js"></script>
 
-</body>
 
+</body>
 </html>
